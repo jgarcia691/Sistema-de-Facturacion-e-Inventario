@@ -1,0 +1,37 @@
+# Entornos virtuales
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Byte-compiled / archivos de caché de Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+
+# PyInstaller / Compilación y binarios pesados (el .exe pesa +45MB)
+build/
+dist/
+*.spec
+
+# Base de datos SQLite local (evita sobreescribir datos de producción/clientes reales)
+*.db
+*.sqlite3
+
+# Reportes generados en Excel (se mantienen vacíos en el repo)
+reportes/*.xlsx
+!reportes/.gitkeep
+
+# Archivos de configuración de editores / IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Archivos del sistema operativo
+Thumbs.db
+Desktop.ini
+.DS_Store
